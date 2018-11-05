@@ -7,13 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853515BE2190A5B3007C7DD7 /* CurrencyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853515BD2190A5B3007C7DD7 /* CurrencyService.swift */; };
+		853515C02190A62E007C7DD7 /* ServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853515BF2190A62E007C7DD7 /* ServerService.swift */; };
+		853515C22190A684007C7DD7 /* StorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853515C12190A684007C7DD7 /* StorageService.swift */; };
+		853515C52190A72A007C7DD7 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853515C42190A72A007C7DD7 /* Currency.swift */; };
+		853515C82190A7E8007C7DD7 /* CurrencyPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853515C72190A7E8007C7DD7 /* CurrencyPickerView.swift */; };
+		853515CA2190A828007C7DD7 /* CurrencyPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 853515C92190A828007C7DD7 /* CurrencyPickerView.xib */; };
+		853515CD2190A916007C7DD7 /* TextFieldCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853515CC2190A916007C7DD7 /* TextFieldCurrency.swift */; };
 		85DCCDC521900CB300778936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDC421900CB300778936 /* AppDelegate.swift */; };
-		85DCCDC721900CB300778936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDC621900CB300778936 /* ViewController.swift */; };
 		85DCCDCA21900CB300778936 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DCCDC821900CB300778936 /* Main.storyboard */; };
 		85DCCDCC21900CB500778936 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85DCCDCB21900CB500778936 /* Assets.xcassets */; };
 		85DCCDCF21900CB500778936 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DCCDCD21900CB500778936 /* LaunchScreen.storyboard */; };
 		85DCCDDA21900CB500778936 /* CurrencyConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDD921900CB500778936 /* CurrencyConverterTests.swift */; };
 		85DCCDE521900CB500778936 /* CurrencyConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDE421900CB500778936 /* CurrencyConverterUITests.swift */; };
+		85DCCDF32190118A00778936 /* AbountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDF22190118A00778936 /* AbountViewController.swift */; };
+		85DCCDF92190121000778936 /* AboutPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDF82190121000778936 /* AboutPresenter.swift */; };
+		85DCCDFB2190122700778936 /* AboutInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDFA2190122700778936 /* AboutInteractor.swift */; };
+		85DCCDFD2190123600778936 /* AboutConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDFC2190123600778936 /* AboutConfigurator.swift */; };
+		85DCCDFF2190150500778936 /* AboutRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCDFE2190150500778936 /* AboutRouter.swift */; };
+		85DCCE06219038BB00778936 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCE05219038BB00778936 /* MainViewController.swift */; };
+		85DCCE082190390100778936 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCE072190390100778936 /* MainPresenter.swift */; };
+		85DCCE0A2190391100778936 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCE092190391100778936 /* MainInteractor.swift */; };
+		85DCCE0C2190392400778936 /* MainConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCE0B2190392400778936 /* MainConfigurator.swift */; };
+		85DCCE0E2190393C00778936 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DCCE0D2190393C00778936 /* MainRouter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +50,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		853515BD2190A5B3007C7DD7 /* CurrencyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyService.swift; sourceTree = "<group>"; };
+		853515BF2190A62E007C7DD7 /* ServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerService.swift; sourceTree = "<group>"; };
+		853515C12190A684007C7DD7 /* StorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageService.swift; sourceTree = "<group>"; };
+		853515C42190A72A007C7DD7 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		853515C72190A7E8007C7DD7 /* CurrencyPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyPickerView.swift; sourceTree = "<group>"; };
+		853515C92190A828007C7DD7 /* CurrencyPickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyPickerView.xib; sourceTree = "<group>"; };
+		853515CC2190A916007C7DD7 /* TextFieldCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCurrency.swift; sourceTree = "<group>"; };
 		85DCCDC121900CB300778936 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DCCDC421900CB300778936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		85DCCDC621900CB300778936 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		85DCCDC921900CB300778936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85DCCDCB21900CB500778936 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		85DCCDCE21900CB500778936 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,16 @@
 		85DCCDE021900CB500778936 /* CurrencyConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyConverterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85DCCDE421900CB500778936 /* CurrencyConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverterUITests.swift; sourceTree = "<group>"; };
 		85DCCDE621900CB500778936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DCCDF22190118A00778936 /* AbountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbountViewController.swift; sourceTree = "<group>"; };
+		85DCCDF82190121000778936 /* AboutPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPresenter.swift; sourceTree = "<group>"; };
+		85DCCDFA2190122700778936 /* AboutInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutInteractor.swift; sourceTree = "<group>"; };
+		85DCCDFC2190123600778936 /* AboutConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutConfigurator.swift; sourceTree = "<group>"; };
+		85DCCDFE2190150500778936 /* AboutRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutRouter.swift; sourceTree = "<group>"; };
+		85DCCE05219038BB00778936 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		85DCCE072190390100778936 /* MainPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		85DCCE092190391100778936 /* MainInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		85DCCE0B2190392400778936 /* MainConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainConfigurator.swift; sourceTree = "<group>"; };
+		85DCCE0D2190393C00778936 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +106,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		853515BC2190A59E007C7DD7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				853515BD2190A5B3007C7DD7 /* CurrencyService.swift */,
+				853515BF2190A62E007C7DD7 /* ServerService.swift */,
+				853515C12190A684007C7DD7 /* StorageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		853515C32190A717007C7DD7 /* Enteties */ = {
+			isa = PBXGroup;
+			children = (
+				853515C42190A72A007C7DD7 /* Currency.swift */,
+			);
+			path = Enteties;
+			sourceTree = "<group>";
+		};
+		853515C62190A7D5007C7DD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				853515C72190A7E8007C7DD7 /* CurrencyPickerView.swift */,
+				853515C92190A828007C7DD7 /* CurrencyPickerView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		853515CB2190A8FC007C7DD7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				853515CC2190A916007C7DD7 /* TextFieldCurrency.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		85DCCDB821900CB300778936 = {
 			isa = PBXGroup;
 			children = (
@@ -97,8 +164,12 @@
 		85DCCDC321900CB300778936 /* CurrencyConverter */ = {
 			isa = PBXGroup;
 			children = (
+				853515CB2190A8FC007C7DD7 /* Extensions */,
+				853515C62190A7D5007C7DD7 /* Views */,
+				853515C32190A717007C7DD7 /* Enteties */,
+				853515BC2190A59E007C7DD7 /* Services */,
+				85DCCE032190380E00778936 /* Modules */,
 				85DCCDC421900CB300778936 /* AppDelegate.swift */,
-				85DCCDC621900CB300778936 /* ViewController.swift */,
 				85DCCDC821900CB300778936 /* Main.storyboard */,
 				85DCCDCB21900CB500778936 /* Assets.xcassets */,
 				85DCCDCD21900CB500778936 /* LaunchScreen.storyboard */,
@@ -123,6 +194,39 @@
 				85DCCDE621900CB500778936 /* Info.plist */,
 			);
 			path = CurrencyConverterUITests;
+			sourceTree = "<group>";
+		};
+		85DCCE02219035C100778936 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				85DCCDF22190118A00778936 /* AbountViewController.swift */,
+				85DCCDF82190121000778936 /* AboutPresenter.swift */,
+				85DCCDFA2190122700778936 /* AboutInteractor.swift */,
+				85DCCDFC2190123600778936 /* AboutConfigurator.swift */,
+				85DCCDFE2190150500778936 /* AboutRouter.swift */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
+		85DCCE032190380E00778936 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				85DCCE042190381B00778936 /* Main */,
+				85DCCE02219035C100778936 /* About */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		85DCCE042190381B00778936 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				85DCCE05219038BB00778936 /* MainViewController.swift */,
+				85DCCE072190390100778936 /* MainPresenter.swift */,
+				85DCCE092190391100778936 /* MainInteractor.swift */,
+				85DCCE0B2190392400778936 /* MainConfigurator.swift */,
+				85DCCE0D2190393C00778936 /* MainRouter.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +336,7 @@
 				85DCCDCF21900CB500778936 /* LaunchScreen.storyboard in Resources */,
 				85DCCDCC21900CB500778936 /* Assets.xcassets in Resources */,
 				85DCCDCA21900CB300778936 /* Main.storyboard in Resources */,
+				853515CA2190A828007C7DD7 /* CurrencyPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +361,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85DCCDC721900CB300778936 /* ViewController.swift in Sources */,
+				85DCCDF92190121000778936 /* AboutPresenter.swift in Sources */,
 				85DCCDC521900CB300778936 /* AppDelegate.swift in Sources */,
+				853515C02190A62E007C7DD7 /* ServerService.swift in Sources */,
+				85DCCE0C2190392400778936 /* MainConfigurator.swift in Sources */,
+				853515BE2190A5B3007C7DD7 /* CurrencyService.swift in Sources */,
+				85DCCE0A2190391100778936 /* MainInteractor.swift in Sources */,
+				853515C52190A72A007C7DD7 /* Currency.swift in Sources */,
+				853515C82190A7E8007C7DD7 /* CurrencyPickerView.swift in Sources */,
+				853515CD2190A916007C7DD7 /* TextFieldCurrency.swift in Sources */,
+				85DCCE0E2190393C00778936 /* MainRouter.swift in Sources */,
+				85DCCDFB2190122700778936 /* AboutInteractor.swift in Sources */,
+				85DCCE082190390100778936 /* MainPresenter.swift in Sources */,
+				853515C22190A684007C7DD7 /* StorageService.swift in Sources */,
+				85DCCDFD2190123600778936 /* AboutConfigurator.swift in Sources */,
+				85DCCDFF2190150500778936 /* AboutRouter.swift in Sources */,
+				85DCCDF32190118A00778936 /* AbountViewController.swift in Sources */,
+				85DCCE06219038BB00778936 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
