@@ -157,7 +157,7 @@ class MainViewController: UIViewController, MainViewProtocol, UITextFieldDelegat
     
     func showAlertView(with text: String) {
         DispatchQueue.main.async {
-            let alertController = UIAlertController(title: "", message: text, preferredStyle: .alert)
+            let alertController = UIAlertController(title: "Oops.", message: text, preferredStyle: .alert)
             alertController.addAction(UIAlertAction(title: "OK", style: .default) { (action:UIAlertAction) in
                 
             })

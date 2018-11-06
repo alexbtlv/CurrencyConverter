@@ -97,11 +97,12 @@ class MainPresenter: MainPresenterProtocol, CurrencyPickerViewDelegate {
     }
     
     func configureView() {
-        view?.setInputValue(with: inputValue)
-        view?.setOutputValue(with: outputValue)
-        view?.setInputCurrencyShortName(with: inputCurrencyShortName)
-        view?.setOutputCurrencyShortName(with: outputCurrencyShortName)
-        view?.addDoneOnInputCurrencyKeyboard()
+        guard let view = view else { return }
+        view.setInputValue(with: inputValue)
+        view.setOutputValue(with: outputValue)
+        view.setInputCurrencyShortName(with: inputCurrencyShortName)
+        view.setOutputCurrencyShortName(with: outputCurrencyShortName)
+        view.addDoneOnInputCurrencyKeyboard()
         updateRateText()
         interactor.getAllCurrencies()
     }
@@ -119,22 +120,24 @@ class MainPresenter: MainPresenterProtocol, CurrencyPickerViewDelegate {
     }
     
     func inputCurrencyButtonClicked() {
+        guard let currencyPickerView = currencyPickerView else { return }
         view.hideKeyboard()
         interactor.inputCurrencyChanging()
-        currencyPickerView?.title = inputCurrencyPickerViewTitle
-        currencyPickerView?.arrayCurrencyNames = interactor.getCurrencyNames()
-        currencyPickerView?.reload()
-        currencyPickerView?.selectedCurrencyIndex = interactor.inputCurrencyIndex
+        currencyPickerView.title = inputCurrencyPickerViewTitle
+        currencyPickerView.arrayCurrencyNames = interactor.getCurrencyNames()
+        currencyPickerView.reload()
+        currencyPickerView.selectedCurrencyIndex = interactor.inputCurrencyIndex
         view.showPickerView()
     }
     
     func outputCurrencyButtonClicked() {
+        guard let currencyPickerView = currencyPickerView else { return }
         view.hideKeyboard()
         interactor.outputCurrencyChanging()
-        currencyPickerView?.title = outputCurrencyPickerViewTitle
-        currencyPickerView?.arrayCurrencyNames = interactor.getCurrencyNames()
-        currencyPickerView?.reload()
-        currencyPickerView?.selectedCurrencyIndex = interactor.outputCurrencyIndex
+        currencyPickerView.title = outputCurrencyPickerViewTitle
+        currencyPickerView.arrayCurrencyNames = interactor.getCurrencyNames()
+        currencyPickerView.reload()
+        currencyPickerView.selectedCurrencyIndex = interactor.outputCurrencyIndex
         view.showPickerView()
     }
     

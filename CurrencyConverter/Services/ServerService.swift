@@ -60,7 +60,6 @@ class ServerService: ServerServiceProtocol {
                 do {
                     let json = try JSONSerialization.jsonObject(with: dataResponse, options: []) as! [String: AnyObject]
                     
-                    print("json: \(json), error: \(String(describing: error))")
                     completion(json, nil)
                     return
                     
